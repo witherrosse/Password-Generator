@@ -43,14 +43,14 @@ def generate_password(length: int, use_symbols=True) -> str:
 
 
 def main():
-    print("🔑 Welcome to Password Generator!")
+    print(" Welcome to Password Generator!")
     try:
         length = int(input("Enter desired password length: "))
         include_symbols = input("Include symbols? (y/n): ").strip().lower() == "y"
         password = generate_password(length, include_symbols)
         print(f"\nGenerated password: {password}")
     except ValueError as e:
-        print(f"❌ Error: {e}")
+        print(f" Error: {e}")
 
 
 if __name__ == "__main__":
