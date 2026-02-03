@@ -1,6 +1,5 @@
 # Password Generator 
 
-A Python program to generate random secure passwords.
 
 ## Features
 - Random letters, digits, and symbols
